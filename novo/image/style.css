@@ -1,0 +1,1026 @@
+/*
+Theme name: Landing Page - Dr Luis Guilherme
+Theme URI: https://drluisguilherme.com.br
+Author: Gabriel Vilarino
+Author URI: https://www.instagram.com/gabrielvillarino/
+Version: 1.0
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+}
+
+.center{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear{clear: both;}
+
+.w50{float: left; width: 50%;}
+
+html {scroll-behavior: smooth;}
+
+section.topo{
+    padding-top: 10px;
+    background-color: #FFF5C8;
+}
+
+#icone-whatsapp{
+    position: relative;
+    z-index: 10;
+    top: 860px;
+    right: 17px;
+    position: fixed;
+    
+}
+
+#icone-whatsapp img:hover{
+    filter: brightness(0.9);
+}
+
+#icone-whatsapp img{
+    width: 65px;
+    height: 65px;
+}
+
+.logo{
+    float: left;
+    margin-top: 10px;
+}
+
+.menu-desktop{
+    float: right;
+}
+
+.menu-desktop li{
+    display: inline-block;
+    margin: 0px 20px;
+    margin-top: 55px;
+}
+
+.menu-desktop a{
+    text-decoration: none;
+    color: #49501D;
+    font-size: 23px;
+}
+
+.menu-desktop a:hover{
+    opacity: 0.6;
+}
+
+section.imagens-slider{
+    overflow: hidden;
+    display: block;
+    background-color: #FFF5C8;
+    padding: 10px 0;
+}
+
+.imagem-single{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.imagem-single img{
+    height: 717px;
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+
+.imagem-single h2{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #edf9ff;
+}
+
+.imagem-single p{
+    position: absolute;
+    top: 290px;
+    left: 200px;
+    font-weight: 400;
+    font-size: 23px;
+    padding: 30px 0;
+    color: #edf9ff;
+}
+
+.imagem-single a{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    text-decoration: none;
+    color: #edf9ff;
+    padding: 10px 50px;
+    background-color: #C26B24;
+    border-radius: 8px;
+}
+
+.imagem-single a:hover{
+    background-color: #a05b22;
+}
+
+section.servicos{
+    position: relative;
+    background-color: #FFF5C8;
+}
+
+section.servicos h2{
+    text-align: center;
+    padding: 50px 0;
+    color: #848935;
+}
+
+.rectangle{
+    width: 223px;
+    height: 223px;
+    border-radius: 18px;
+    background-color: #fff;
+}
+
+.rectangle img{
+    padding: 20px 80px;   
+}
+
+.rectangle h3{
+    text-align: center;
+    color: #848935;
+    font-size: 20px;
+}
+
+.rectangle p{
+    text-align: center;
+    color: #848935;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.icons-diferenciais{
+    margin-top: 20px;
+    display: flex;
+}
+
+.box-single-diferenciais{
+    text-align: center;
+    padding: 0 70px;
+    margin-bottom: 180px;
+}
+
+section.servicos a{
+    position: absolute;
+    top: 420px;
+    left: 44%;
+    text-decoration: none;
+    margin-top: 50px;
+    color: #EDF9FF;
+    background-color: #C26B24;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+section.servicos a:hover{
+    background-color: #a05b22;
+}
+
+section.apresentacao{
+    position: relative;
+    padding: 100px 0;
+    background-color: #49501D;
+}
+
+.imagem{
+    position: relative;
+    left: 140px;
+}
+
+.texto h2{
+    position: relative;
+    right: 100px;
+    color: #edf9ff;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.texto p{
+    position: relative;
+    right: 100px;
+    color: #edf9ff;
+    font-size: 20px;
+    text-align: justify;
+}
+
+section.depoimentos{
+    position: relative;
+    padding: 20px 0;
+    background-color: #FFF5C8;
+}
+
+section.depoimentos h2{
+    font-size: 40px;
+    color: #848935;
+    text-align: center;
+    margin-top: 60px;
+}
+
+section.depoimentos{
+    overflow: hidden;
+    display: block;
+}
+
+.depoimentos-single{position: relative; width: 100%;display: inline-flex;}
+
+.rectangle2{
+    position: relative;
+    left: 275px;
+    width: 960px;
+    height: 421px;
+    background-color: #848935;
+    border-radius: 18px;
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+
+.rectangle2 img{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+.rectangle2 h6{
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 0px 160px;
+    margin-top: 90px;
+}
+
+.rectangle2 p{
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+section.imagens-consultorio{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #FFF5C8;
+    padding: 20px 0;
+}
+
+.imagens-consultorio img{
+    position: relative;
+    top: 40px;
+}
+
+.imagens-consultorio img{
+    height: 717px;
+}
+
+section.localizacao{
+    background-color: #FFF5C8;
+    padding: 30px 0;
+}
+
+section.localizacao h2{
+    font-size: 40px;
+    text-align: center;
+    color: #848935;
+    padding: 50px 0;
+}
+
+div#mapa{
+	width: 1500px;
+    height: 500px;
+    color: gray;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+section.localizacao p{
+    position: relative;
+    top: -20px;
+    font-size: 15px;
+    color: #848935;
+    
+}
+
+section.agendamento{
+    padding: 10px 0;
+    background-color: #848935;
+}
+
+.agendamento h2{
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+.rectangle3{
+    position: relative;
+    left: 480px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 560px;
+    height: 430px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+}
+
+.rectangle3 input[type=text]{
+    width: 70%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 11px;
+    border: solid 1px #c4c4c4;
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+.rectangle3 input[type=tel]{
+    width: 70%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 11px;
+    border: solid 1px #c4c4c4;
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+.rectangle3 input[type=email]{
+    width: 70%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 11px;
+    border: solid 1px #c4c4c4;
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+.rectangle3 textarea{
+    width: 70%;
+    height: 151px;
+    margin-top: 20px;
+    border-radius: 11px;
+    border: solid 1px #c4c4c4;
+    padding: 8px;
+    font-size: 18px;
+    resize: none;
+}
+
+.rectangle3 input[type="submit"]{
+    width: 50%;
+    height: 43px;
+    margin-top: 20px;
+    border-radius: 11px;
+    border: solid 1px #c4c4c4;
+    font-size: 23px;
+    color: #edf9ff;
+    background-color: #c26b24;
+    cursor: pointer;
+}
+
+.rectangle3 input[type="submit"]:hover{
+    background-color: #a05b22;
+}
+
+section.contato{
+    padding: 5px 0;
+    background-color: #49501D;
+}
+
+.info h2{
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.info a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.info a:hover{
+    opacity: 0.6;
+}
+
+.info p{
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.redes img{
+    float: right;
+    margin-top: 60px;
+}
+
+.redes-contato li{
+    display: inline-block;
+    margin: 35px 8px;
+}
+
+.redes-contato a{
+    position: relative;
+    top: 140px;
+    left: 600px;
+}
+
+.redes-contato img{
+    width: 40px;
+    height: 40px;
+}
+
+.redes-contato img:hover{
+    filter: brightness(0.7);
+}
+
+section.direitos{
+    padding: 5px 0;
+    background-color: #3B4117;
+}
+
+.direitos p{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/*Slick Slider*/
+
+.slick-dotted ul{
+	list-style-type: none;
+	text-align: center;
+    background-color: transparent;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 13px;
+	height: 13px;
+	border-radius: 10px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+    position: relative;
+}
+
+li.slick-active button{
+	background: #49501D;
+	color: #49501D;
+}
+
+.slick-slide:focus {outline: none;}
+
+/*Fim Slick*/
+
+/* Responsivo */
+@media screen and (max-width:  414px){
+
+    .w50{width: 100%;}
+
+    .logo img{
+        width: 160px;
+        height: 80px;
+        margin-top: 15px;
+    }
+
+    .topo{
+        border: blue 2px solid
+    }
+
+    .menu-desktop a{
+        font-size: 15px;
+    }
+
+    #icone-whatsapp{
+        top: 835px;
+        right: 20px;
+    }
+
+    .imagem-single img{
+        height: 280px;
+    }
+
+    .imagem-single h2{
+        font-size: 16px;
+        top: 120px;
+        left: 60px;
+    }
+
+    .imagem-single p{
+        font-size: 12px;
+        top: 115px;
+        left: 60px;
+    }
+
+    .imagem-single a{
+        top: 190px;
+        left: 60px;
+        font-size: 11px;
+        padding: 10px 25px;
+
+    }
+
+    section.servicos{
+        overflow-x: hidden;
+    }
+
+    .rectangle{
+        width: 180px;
+        height: 180px;
+        border-radius: 18px;
+        background-color: #fff;
+    }
+
+    .rectangle img{
+        width: 83%;
+        height: 50%;
+        padding: 20px 50px;   
+    }
+    
+    .rectangle h3{
+        text-align: center;
+        color: #848935;
+        font-size: 16px;
+    }
+    
+    .rectangle p{
+        text-align: center;
+        color: #848935;
+        margin-top: 10px;
+        font-size: 11px;
+    }
+
+    .icons-diferenciais{
+        flex-wrap: wrap;
+        position: relative;
+        left: 10px;
+    }
+
+    .box-single-diferenciais{
+        padding: 0 20px;
+        margin-bottom: 90px;
+    }
+
+    section.servicos a{
+        left: 130px;
+        top: 580px;
+        
+    }
+
+    section.apresentacao{
+        overflow-x: hidden;
+    }
+
+    .imagem img{
+        width: 300px;
+        height: 250px;
+        position: relative;
+        right: 50px;
+        margin-bottom: 10px;
+    }
+
+    .texto h2{
+        left: 45px;
+        font-size: 30px;
+    }
+
+    h2#nome-medico br{
+        display: none;
+    }
+
+    .texto p{
+        left: 0px;
+        font-size: 18px;
+    }
+
+    section.depoimentos{
+        overflow-x: hidden;
+    }
+
+    .rectangle2{
+        width: 450px;
+        height: 350px;
+        left: 10px;
+    }
+
+    .rectangle2 h6{
+        padding: 0px 50px;
+        margin-top: 70px;
+        font-size: 17px;
+    }
+    
+    .rectangle2 p{
+        position: absolute;
+        left: 170px;
+        bottom: 50px;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    .rectangle2 img{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        height: 60px;
+    }
+
+    section.imagens-consultorio img{
+        height: 280px;
+    }
+
+    div#mapa{
+        text-align: center;
+        width: 460px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    section.localizacao p{
+        font-size: 10px;
+    }
+
+    .rectangle3{
+        left: 5px;
+        width: 440px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .rectangle3 input[type=text]{
+        font-size: 14px;
+    }
+    
+    .rectangle3 input[type=tel]{
+        font-size: 14px;
+    }
+    
+    .rectangle3 input[type=email]{
+        font-size: 14px;
+    }
+    
+    .rectangle3 textarea{
+        font-size: 14px;
+    }
+    
+    .rectangle3 input[type="submit"]{
+        width: 30%;
+        height: 35px;
+        margin-top: 20px;
+        border-radius: 7px;
+        border: solid 1px #c4c4c4;
+        font-size: 16px;
+        color: #edf9ff;
+        background-color: #c26b24;
+        cursor: pointer;
+    }
+
+    .info h2{
+        margin-top: 100px;
+        font-size: 25px;
+    }
+
+    .info p{
+        margin-bottom: -150px;
+        font-size: 12px;
+    }
+
+    .redes img{
+    width: 140px;
+    height: 100px;
+    float: right;
+    position: relative;
+    bottom: 80px;
+    right: 0px;
+    }
+
+    .redes-contato img{
+    width: 30px;
+    height: 30px;
+    }
+
+    .redes-contato li{
+    display: inline-block;
+    margin: 0px 5px;
+    margin-top: -30px;
+    }
+
+    .redes-contato a{
+    left: 350px;
+    }
+
+}
+
+@media screen and (max-width:  375px){
+
+    .w50{width: 100%;}
+
+	
+    .topo{
+        border: red 2px solid
+    }
+    .logo img{
+        width: 120px;
+        height: 80px;
+        margin-top: 15px;
+    }
+
+    .menu-desktop a{
+        font-size: 10px;
+    }
+
+    .menu-desktop li{
+        margin: 0px 10px;
+        margin-top: 55px;
+    }
+
+    #icone-whatsapp{
+        top: 620px;
+        right: 10px;
+    }
+
+    #icone-whatsapp img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .imagem-single img{
+        height: 220px;
+    }
+
+    .imagem-single h2{
+        font-size: 14px;
+        top: 100px;
+        left: 60px;
+    }
+
+    .imagem-single p{
+        font-size: 10px;
+        top: 95px;
+        left: 60px;
+    }
+
+    .imagem-single a{
+        top: 160px;
+        left: 60px;
+        font-size: 11px;
+        padding: 10px 25px;
+
+    }
+
+    section.servicos{
+        overflow-x: hidden;
+    }
+
+    .servicos h2{
+        font-size: 24px;
+    }
+
+    .rectangle{
+        width: 140px;
+        height: 140px;
+        border-radius: 18px;
+        background-color: #fff;
+    }
+
+    .rectangle img{
+        width: 85%;
+        height: 60px;
+        padding: 10px 40px;   
+    }
+    
+    .rectangle h3{
+        text-align: center;
+        color: #848935;
+        font-size: 12px;
+    }
+    
+    .rectangle p{
+        text-align: center;
+        color: #848935;
+        margin-top: 10px;
+        font-size: 9px;
+    }
+
+    .icons-diferenciais{
+        flex-wrap: wrap;
+    }
+
+    .box-single-diferenciais{
+        padding: 0 20px;
+        margin-bottom: 90px;
+    }
+
+    section.servicos a{
+        left: 70px;
+        top: 500px;
+        
+    }
+
+    section.apresentacao{
+        overflow-x: hidden;
+    }
+
+    .imagem img{
+        width: 250px;
+        height: 220px;
+        position: relative;
+        right: 75px;
+        margin-bottom: 10px;
+    }
+
+    .texto h2{
+        left: 20px;
+        font-size: 25px;
+    }
+
+    h2#nome-medico br{
+        display: none;
+    }
+
+    .texto p{
+        left: 0px;
+        font-size: 14px;
+    }
+
+    section.depoimentos{
+        overflow-x: hidden;
+    }
+
+    section.depoimentos h2{
+        font-size: 24px;
+    }
+
+    .rectangle2{
+        width: 340px;
+        height: 240px;
+        left: 10px;
+    }
+
+    .rectangle2 h6{
+        padding: 0px 15px;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+    
+    .rectangle2 p{
+        position: absolute;
+        left: 120px;
+        bottom: 20px;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    .rectangle2 img{
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        height: 30px;
+        width: 50px;
+    }
+
+    section.imagens-consultorio img{
+        height: 220px;
+    }
+
+    div#mapa{
+        text-align: center;
+        width: 360px;
+        height: 170px;
+        margin-bottom: 30px;
+    }
+
+    section.localizacao h2{
+        font-size: 24px;
+    }
+
+    section.localizacao p{
+        font-size: 10px;
+    }
+
+    section.agendamento h2{
+        font-size: 24px;
+    }
+
+    .rectangle3{
+        left: 5px;
+        width: 350px;
+        height: 350px;
+        text-align: center;
+    }
+
+    .rectangle3 input[type=text]{
+        height: 25px;
+        border-radius: 7px;
+        font-size: 12px;
+    }
+    
+    .rectangle3 input[type=tel]{
+        height: 25px;
+        border-radius: 7px;
+        font-size: 12px;
+    }
+    
+    .rectangle3 input[type=email]{
+        height: 25px;
+        border-radius: 7px;
+        font-size: 12px;
+    }
+    
+    .rectangle3 textarea{
+        height: 120px;
+        margin-top: 20px;
+        border-radius: 7px;
+        border: solid 1px #c4c4c4;
+        padding: 8px;
+        font-size: 18px;
+        resize: none;
+    }
+    
+    .rectangle3 input[type="submit"]{
+        width: 35%;
+        height: 35px;
+        margin-top: 20px;
+        border-radius: 11px;
+        border: solid 1px #c4c4c4;
+        font-size: 16px;
+        color: #edf9ff;
+        background-color: #c26b24;
+        cursor: pointer;
+    }
+    
+    .rectangle3 input[type="submit"]:hover{
+        background-color: #a05b22;
+    }
+
+    .info h2{
+        margin-top: 60px;
+        font-size: 20px;
+    }
+
+    .info p{
+        margin-bottom: -130px;
+        font-size: 12px;
+    }
+
+    .info a{
+        font-size: 12px;
+    }
+
+    .redes img{
+    width: 130px;
+    height: 85px;
+    float: right;
+    position: relative;
+    bottom: 95px;
+    right: 0px;
+    }
+
+    .redes-contato img{
+    width: 20px;
+    height: 20px;
+    }
+
+    .redes-contato li{
+    display: inline-block;
+    margin: 0px 5px;
+    margin-top: -50px;
+    }
+
+    .redes-contato a{
+    left: 270px;
+    }
+
+    section.direitos p{
+        font-size: 12px;
+    }
+
+}
+
+
+/*Fim Responsivo */
